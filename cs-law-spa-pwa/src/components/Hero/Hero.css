@@ -41,7 +41,6 @@
 /* Small devices (phones, 576px and up) */
 @media (min-width: 576px) {
   .hero {
-    margin-top: 120px;
     /* Adjust styles for smaller devices */
   }
   .hero h1 {

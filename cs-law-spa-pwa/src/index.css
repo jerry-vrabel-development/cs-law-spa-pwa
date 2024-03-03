@@ -36,30 +36,6 @@ a:hover {
   justify-content: center;
 }
 
-.footer {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #4D4D4D;
-  color: white;
-  font-size: 10px;
-  width: 100vw;
-}
-
-.footer-logo {
-margin-right: auto;
-}
-
-.footer-image {
-  width: 75px;
-  height: 50px;
-  padding-top: 15px;
-}
-
-.footer-info {
-margin-right: auto;
-}
-
 /* Media Queries */
 
 /* Tablets (768px and above) */

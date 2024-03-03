@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px; /* Adjusted padding for better spacing around the content */
+  border-bottom: solid #FFD700 2px; /* Adjusted padding for better spacing around the content */
   box-sizing: border-box; /* Ensures padding is included in the total width */
   z-index: 2000; /* Ensures header stays above other content */
 }
@@ -23,15 +23,13 @@
 }
 
 .logo-image {
-  width: 131px;
-  height: 100px;
-  padding-top: 15px;
+  width: 75px;
+  height: 50px;
 }
 
 .navbar {
   display: flex; /* Start hidden and will be shown on active */
   position: fixed;
-  top: 60px; /* Adjust based on header height */
   left: 0;
   background-color: #003366;
   color: white;
@@ -77,10 +75,18 @@
   margin: 4px 0; /* Spacing between lines */
   transition: background-color 0.3s ease; /* Smooth transition for hover or click effects */
 }
+/* Small devices (phones, 576px and up) */
+@media (max-width: 575.98px) { 
+  .navbar.active {
+    margin-top: 286px;
+  }
+}
 
 /* Small devices (phones, 576px and up) */
 @media (min-width: 576px) {
-  
+  .navbar.active {
+    margin-top: 286px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */

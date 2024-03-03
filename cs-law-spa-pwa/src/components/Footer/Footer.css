@@ -1,0 +1,26 @@
+
+.footer {
+  border-top: solid #FFD700 2px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4D4D4D;
+  color: white;
+  font-size: 10px;
+  width: 100vw;
+}
+
+.footer-logo {
+margin-right: auto;
+}
+
+.footer-image {
+  width: 75px;
+  height: 50px;
+  padding-top: 5px;
+}
+
+.footer-info {
+margin-right: auto;
+padding-top: 10px;
+}

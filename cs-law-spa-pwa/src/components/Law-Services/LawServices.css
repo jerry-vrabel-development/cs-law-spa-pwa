@@ -1,0 +1,49 @@
+/* LawServices.css */
+.lawServices {
+  min-height: 100vh;  /* Change this to min-height */
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Align items to center vertically */
+  background-color: #003366;
+}
+
+.lawServices h2 {
+  color: #ffffff;
+  font-size: 42px
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout */
+  gap: 20px;
+  padding: 20px;
+}
+
+.service-card {
+  background-color: #fff; /* Card background color */
+  border-radius: 8px; /* Rounded corners */
+  border: solid 3px #FFD700;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition on hover */
+  padding: 0.75em
+}
+
+.service-card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.service-title {
+  color: #003366; /* Title color */
+  font-size: 24px; /* Title font size */
+  font-weight: bold;
+  margin: 10px 0; /* Margin around the title */
+  text-align: center;
+}
+
+.service-description {
+  color: #555; /* Description color */
+  font-size: 16px; /* Description font size */
+  margin-bottom: 10px; /* Margin at the bottom of the description */
+}
