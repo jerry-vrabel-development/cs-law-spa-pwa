@@ -17,7 +17,7 @@ const Header: React.FC = () => {
       </a>
       {/* Toggle class based on the state */}
       <nav className={`navbar ${isMenuOpen ? 'active' : ''}`} id="navbar">
-        <a href="/">Home</a>
+        <a href="#hero">Home</a>
         <a href="#services">Our Services</a>
         <a href="#about">About Us</a>
         <a href="#contact">Contact</a>

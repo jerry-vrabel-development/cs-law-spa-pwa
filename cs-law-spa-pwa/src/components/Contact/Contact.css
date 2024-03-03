@@ -1,13 +1,36 @@
+/* Contact.css */
+
 .contact {
-  min-height: 100vh;  /* Change this to min-height */
-  width: 100vw;
+  min-height: 100vh;
+  min-width: 300px; /* Example minimum width */
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center; /* Center content horizontally and vertically */
+  padding: 40px;
+  box-sizing: border-box; /* Ensure padding doesn't affect overall width */
+  text-align: center; /* Center align text for better readability */
 }
 
 .contact h2 {
   color: #003366;
-  font-size: 42px
-  
+  font-size: 2.625rem; /* Adjusted font size for better readability */
+  margin-bottom: 20px; /* Added margin bottom for separation */
+}
+
+.contact p {
+  margin-bottom: 20px; /* Added margin bottom for separation */
+  font-size: 1.5rem; /* Adjusted font size for better readability */
+}
+
+.contact a {
+  color: #0056b3;
+  text-decoration: none;
+  transition: text-decoration 0.3s ease; /* Smooth transition for text-decoration */
+}
+
+.contact a:hover,
+.contact a:focus {
+  text-decoration: underline; /* Adds underline on hover/focus for accessibility */
 }

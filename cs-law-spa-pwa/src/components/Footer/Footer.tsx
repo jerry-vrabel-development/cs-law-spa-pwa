@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
     <div className="footer">
       <div className="footer-logo">
         <a href="/">
-          <img src="gray-logo.svg" className="footer-image" />
+          <img src="CSlogo.svg" className="footer-image" />
         </a>
       </div>
       <div className="footer-info">
