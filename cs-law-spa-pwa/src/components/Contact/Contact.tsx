@@ -30,6 +30,7 @@ const contactDetails: ContactInfo[] = [
 const Contact: React.FC = () => {
   return (
     <div id="contact" className="contact">
+      <div className="about-content">
       <h2>Contact us at Conrad Szewczyk &amp; Associates</h2>
       <address>
         {contactDetails.map(({ type, value, href }) => (
@@ -37,7 +38,8 @@ const Contact: React.FC = () => {
             {type}: {href ? <a href={href}>{value}</a> : value}
           </p>
         ))}
-      </address>
+        </address>
+        </div>
     </div>
   );
 };
