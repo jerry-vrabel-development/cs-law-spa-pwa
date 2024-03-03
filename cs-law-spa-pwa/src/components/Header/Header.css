@@ -1,0 +1,107 @@
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #003366;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Adjusted padding for better spacing around the content */
+  box-sizing: border-box; /* Ensures padding is included in the total width */
+  z-index: 2000; /* Ensures header stays above other content */
+}
+
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.logo-image {
+  width: 131px;
+  height: 100px;
+  padding-top: 15px;
+}
+
+.navbar {
+  display: flex; /* Start hidden and will be shown on active */
+  position: fixed;
+  top: 60px; /* Adjust based on header height */
+  left: 0;
+  background-color: #003366;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Full width */
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1000; /* High z-index but lower than the header */
+}
+
+.navbar.active {
+  display: flex; /* Show navbar when active */
+  margin-top: 60px;
+  opacity: 1;
+  pointer-events: all; /* Enable interactions */
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px; /* Increased padding for better touch targets */
+  width: 100%; /* Full width for easier touch */
+  box-sizing: border-box; /* Include padding in width calculation */
+  text-align: center; /* Center align the links */
+}
+
+/* Additional styling for the menu button */
+.menu-button {
+  display: none; /* Only shown in mobile view */
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: auto; /* Align to the right */
+  margin-right: 1.5em;
+}
+
+.hamburger-icon {
+  display: block;
+  width: 30px; /* Width of the hamburger line */
+  height: 3px; /* Height of the hamburger line */
+  background-color: white;
+  margin: 4px 0; /* Spacing between lines */
+  transition: background-color 0.3s ease; /* Smooth transition for hover or click effects */
+}
+
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .menu-button {
+    display: block;
+  }
+
+  .navbar {
+    display: none; /* Initially hidden, shown when active */
+  }
+
+  .menu-button .hamburger-icon {
+    width: 20px; /* Adjusted width for small screens */
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
