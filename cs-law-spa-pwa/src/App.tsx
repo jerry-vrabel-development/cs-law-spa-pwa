@@ -25,7 +25,7 @@ function App() {
       <div className="footer">
         <div className="footer-logo">
           <a href="/">
-            <img src="src/assets/gray-logo.svg" className="footer-image" />
+            <img src="gray-logo.svg" className="footer-image" />
           </a>
         </div>
         <div className="footer-info">
