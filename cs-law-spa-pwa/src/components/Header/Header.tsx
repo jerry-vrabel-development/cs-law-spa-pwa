@@ -13,7 +13,7 @@ const Header: React.FC = () => {
   return (
     <header className="header">
       <a href="/" className="logo">
-        <img src="CSlogo.svg" className="logo-image" alt="logo" />
+        <img src="CSlogo.svg" className="logo-image" alt="The Law Firm of CONRAD SZEWCZYK & ASSOCIATES" />
       </a>
       {/* Toggle class based on the state */}
       <nav className={`navbar ${isMenuOpen ? 'active' : ''}`} id="navbar">
