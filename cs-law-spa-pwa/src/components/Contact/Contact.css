@@ -1,18 +1,17 @@
 .contact {
   min-height: 100vh;
-  min-width: 300px; /* Example minimum width */
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; /* Center content horizontally and vertically */
+  align-items: center;
   padding: 40px;
   box-sizing: border-box; /* Ensure padding doesn't affect overall width */
-  text-align: center; /* Center align text for better readability */
 }
 
 .about-content {
   max-width: 800px; /* Limit maximum width of content */
+  text-align: center; /* Center align text for better readability */
 }
 
 .contact h2 {
