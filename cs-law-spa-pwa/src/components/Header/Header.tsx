@@ -20,7 +20,7 @@ const Header: React.FC = () => {
         <a href="#hero">Home</a>
         <a href="#services">Our Services</a>
         <a href="#about">About Us</a>
-        <a href="#contact">Contact</a>
+        <a href="#contactUs">Contact</a>
       </nav>
       {/* Button to toggle the menu */}
       <button className="menu-button" id="menuButton" onClick={toggleMenu}>

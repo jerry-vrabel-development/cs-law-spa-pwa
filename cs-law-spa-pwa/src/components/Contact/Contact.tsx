@@ -29,7 +29,7 @@ const contactDetails: ContactInfo[] = [
 
 const Contact: React.FC = () => {
   return (
-    <div id="contact" className="contact">
+    <div id="contactUs" className="contact-section">
       <div className="about-content">
       <h2>Contact us at Conrad Szewczyk &amp; Associates</h2>
       <address>
