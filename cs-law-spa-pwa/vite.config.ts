@@ -10,6 +10,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       devOptions: {
         enabled: true
+      },
+      manifest: {
+        theme_color: '#003366'
       }
     })],
 })
