@@ -94,11 +94,9 @@
   .menu-button {
     display: block;
   }
-
   .navbar {
     display: none; /* Initially hidden, shown when active */
   }
-
   .menu-button .hamburger-icon {
     width: 20px; /* Adjusted width for small screens */
   }
