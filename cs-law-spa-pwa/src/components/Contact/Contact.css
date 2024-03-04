@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.about-content {
+.contact-content {
   max-width: 800px; /* Limit maximum width of content */
   text-align: center; /* Center align text for better readability */
 }
@@ -25,13 +25,13 @@
   line-height: 1.6; /* Increase line spacing for better readability */
 }
 
-.contact a {
+.contact-section a {
   color: #003366;
   text-decoration: none;
   transition: text-decoration 0.3s ease; /* Smooth transition for text-decoration */
 }
 
-.contact a:hover,
-.contact a:focus {
+.contact-section a:hover,
+.contact-section a:focus {
   text-decoration: underline; /* Adds underline on hover/focus for accessibility */
 }
