@@ -1,15 +1,14 @@
 .contact-section {
   min-height: 100vh;
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #ffffff; /* Light grey background for subtle contrast */
 }
 
 .contact-content {
   max-width: 800px; /* Limit maximum width of content */
-  text-align: center; /* Center align text for better readability */
 }
 
 .contact-section h2 {
@@ -23,6 +22,7 @@
   margin-bottom: 20px; /* Added margin bottom for separation */
   font-size: 1.5rem; /* Adjusted for better readability */
   line-height: 1.6; /* Increase line spacing for better readability */
+  text-align: center;
 }
 
 .contact-section a {
