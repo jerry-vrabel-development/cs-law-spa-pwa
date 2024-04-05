@@ -3,21 +3,6 @@ import '../../assets/cs.logo.svg';
 
 
 const Hero: React.FC = () => {
-    // Define animation variants
-    const textVariants = {
-      hidden: { opacity: 0, fill: "yellow" },
-      visible: { 
-        opacity: 1,
-        scale: 4,
-        fill: "white",
-        stroke:"black",
-        strokeWidth: ".5",
-        transition: {
-          duration: 0.5,
-          ease: "easeInOut",
-        },
-      },
-    };
 
   return (
     <div id="hero" className="hero">
