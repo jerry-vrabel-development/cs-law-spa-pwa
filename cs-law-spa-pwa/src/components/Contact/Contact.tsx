@@ -30,8 +30,9 @@ const contactDetails: ContactInfo[] = [
 const Contact: React.FC = () => {
   return (
     <div id="contactUs" className="contact-section">
+              <h2>CONTACT</h2>
+      <img src="csa-logo.svg" className="contact-image" alt="The Law Firm of CONRAD SZEWCZYK & ASSOCIATES" />
       <div className="contact-content">
-        <h2>Contact us at Conrad Szewczyk &amp; Associates</h2>
         <address>
           {contactDetails.map(({ type, value, href }) => (
             <p key={type}>

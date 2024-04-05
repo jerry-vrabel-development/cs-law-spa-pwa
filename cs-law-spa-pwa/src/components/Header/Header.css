@@ -20,11 +20,16 @@
   font-weight: bold;
   color: white;
   text-decoration: none;
+  margin-top: .25em;
 }
 
 .logo-image {
   width: 75px;
   height: 50px;
+}
+
+.icon {
+  width: 32px
 }
 
 .navbar {
@@ -40,6 +45,11 @@
   z-index: 1000; /* High z-index but lower than the header */
 }
 
+.nav-item {
+  display: flex; /* or flex */
+  position: relative; /* Critical for positioning the underline */
+}
+
 .navbar.active {
   display: flex; /* Show navbar when active */
   margin-top: 60px;
@@ -50,10 +60,24 @@
 .navbar a {
   color: white;
   text-decoration: none;
-  padding: 15px 20px; /* Increased padding for better touch targets */
+  padding: 15px 20px;  /* Increased padding for better touch targets */
   width: 100%; /* Full width for easier touch */
   box-sizing: border-box; /* Include padding in width calculation */
   text-align: center; /* Center align the links */
+}
+
+.navbar a:hover {
+  background-color: gold;
+  color: #003366;
+}
+
+.underline {
+  position: absolute;
+  bottom: -5px; /* Adjust based on your design */
+  left: 0;
+  height: 2px;
+  background-color: #000; /* Adjust based on your design */
+  width: 0%;
 }
 
 /* Additional styling for the menu button */

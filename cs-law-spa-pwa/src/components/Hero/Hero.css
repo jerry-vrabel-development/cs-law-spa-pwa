@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url('../../assets/courtroom.jpg'); /* Path to your image */
+  background-image: url('../../assets/patrick-fore-H5Lf0nGyetk-unsplash.jpg'); /* Path to your image */
   background-size: cover; /* Cover ensures the image covers the entire section */
   background-position: center; /* Centers the background image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
