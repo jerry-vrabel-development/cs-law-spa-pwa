@@ -8,6 +8,8 @@
   background-color: #003366;
 }
 .contact-image {
+  width: 250px;
+  height: 200px;
   padding-top: 2em;
   padding-bottom: 2em;
 }
