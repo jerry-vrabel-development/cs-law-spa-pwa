@@ -67,8 +67,8 @@
 }
 
 .navbar a:hover {
-  background-color: gold;
-  color: #003366;
+  color: gold;
+  text-decoration: none;
 }
 
 .underline {

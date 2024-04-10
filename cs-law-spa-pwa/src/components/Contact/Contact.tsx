@@ -30,7 +30,7 @@ const contactDetails: ContactInfo[] = [
 const Contact: React.FC = () => {
   return (
     <div id="contactUs" className="contact-section">
-              <h2>CONTACT</h2>
+              <h2>Contact</h2>
       <img src="csa-logo.svg" className="contact-image" alt="The Law Firm of CONRAD SZEWCZYK & ASSOCIATES" />
       <div className="contact-content">
         <address>

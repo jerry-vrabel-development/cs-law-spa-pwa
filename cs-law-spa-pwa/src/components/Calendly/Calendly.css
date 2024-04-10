@@ -1,0 +1,9 @@
+.calendly {
+}
+
+.calendly-section h2 {
+  color: #003366;
+  font-size: 2.625rem; /* Adjusted font size for better readability */
+  margin-bottom: 20px; /* Added margin bottom for separation */
+  text-align: center;
+}

@@ -4,9 +4,18 @@ import { InlineWidget } from 'react-calendly';
 const Calendly: React.FC = () => {
 
   return (
-    <div id="calendly" className="">
+    <div id="calendly" className="calendly-section">
+      <h2>Schedule a Consultation</h2>
       <div className="inline-widget">
-        <InlineWidget url="https://calendly.com/jerry-vrabel-development" />
+        <InlineWidget
+          pageSettings={{
+          backgroundColor: '#003366',
+          hideEventTypeDetails: false,
+          hideLandingPageDetails: false,
+          primaryColor: '#ffffff',
+          textColor: 'ffffff'
+          }}
+          url="https://calendly.com/jerry-vrabel-development" />
       </div>
     </div>
   )
