@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
       <div className='hero-svg'>
       <img src="csa-logo.svg" className="hero-image" alt="The Law Firm of CONRAD SZEWCZYK & ASSOCIATES" />
       </div>
-      <a href="#contactUs">
+      <a href="#calendly">
         <button className="button">Schedule a Consultation</button>
         </a>
   </div>

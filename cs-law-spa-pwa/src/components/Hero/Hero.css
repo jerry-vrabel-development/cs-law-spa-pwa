@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 .hero {
-  background-color: #C0C0C0;
   color: #fff;
   text-align: center;
   min-height: 100vh; /* Change this to min-height */
