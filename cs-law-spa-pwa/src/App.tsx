@@ -26,10 +26,10 @@ function App() {
           <meta property="og:url" content="https://cs-law-spa-pwa.vercel.app/" />
           { /* End Facebook tags */}
           { /* Twitter tags */}
-          <meta name="twitter:creator" content="" />
-          <meta name="twitter:card" content="" />
-          <meta name="twitter:title" content="" />
-          <meta name="twitter:description" content="" />
+          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:title" content="Conrad Szewczyk & Associates" />
+          <meta name="twitter:description" content="Conrad Szewczyk & Associates, unwavering dedication to justice and a commitment to excellence in the legal profession." />
+          <meta property="twitter:image" content="/csa-logo.png"></meta>
           { /* End Twitter tags */}
         </Helmet>
         <Header />
