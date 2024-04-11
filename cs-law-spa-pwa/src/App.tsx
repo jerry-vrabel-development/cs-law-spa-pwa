@@ -12,36 +12,15 @@ function App() {
 
   return (
     <>
-      <HelmetProvider>
-        <Helmet>
-          { /* Standard metadata tags */}
-          <title>Conrad Szewczyk & Associates</title>
-          <meta name='description' content='Conrad Szewczyk & Associates, unwavering dedication to justice and a commitment to excellence in the legal profession.' />
-          { /* End standard metadata tags */}
-          { /* Facebook tags */}
-          <meta property="og:type" content="website" />
-          <meta property="og:title" content='Conrad Szewczyk & Associates' />
-          <meta property="og:description" content='Conrad Szewczyk & Associates, unwavering dedication to justice and a commitment to excellence in the legal profession.' />
-          <meta property="og:image" content="/csa-logo.png" />
-          <meta property="og:url" content="https://cs-law-spa-pwa.vercel.app/" />
-          { /* End Facebook tags */}
-          { /* Twitter tags */}
-          <meta name="twitter:card" content="summary" />
-          <meta name="twitter:title" content="Conrad Szewczyk & Associates" />
-          <meta name="twitter:description" content="Conrad Szewczyk & Associates, unwavering dedication to justice and a commitment to excellence in the legal profession." />
-          <meta property="twitter:image" content="/csa-logo.png"></meta>
-          { /* End Twitter tags */}
-        </Helmet>
-        <Header />
-        <Hero />
-        <section>
-          <LawServices />
-          <About />
-          <Calendly />
-          <Contact />
-        </section>
-          <Footer />
-      </HelmetProvider>
+      <Header />
+      <Hero />
+      <section>
+        <LawServices />
+        <About />
+        <Calendly />
+        <Contact />
+      </section>
+        <Footer />
     </>
   )
 }
