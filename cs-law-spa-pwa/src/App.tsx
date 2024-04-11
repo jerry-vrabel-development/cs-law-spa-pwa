@@ -1,4 +1,3 @@
-import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero'
 import LawServices from './components/Law-Services/LawServices';
