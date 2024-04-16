@@ -16,6 +16,12 @@
   font-size: 2.625rem; /* Adjusted for better readability */
   margin-bottom: 20px; /* Added margin bottom for separation */
   text-align: center;
+  padding-right: 15px;
+}
+
+.about-icon {
+  height: 32px;
+  padding-right: 15px;
 }
 
 .about-content {

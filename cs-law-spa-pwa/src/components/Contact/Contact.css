@@ -7,6 +7,10 @@
   align-items: center;
   background-color: #003366;
 }
+.contact-icon {
+  height: 32px;
+  padding-right: 15px; 
+}
 .contact-image {
   width: 250px;
   height: 200px;
@@ -16,13 +20,14 @@
 
 .contact-content {
   max-width: 800px; /* Limit maximum width of content */
+  padding: 15px;
 }
 
 .contact-section h2 {
   color: #ffffff;
   font-size: 2.625rem; /* Adjusted font size for better readability */
-  margin-bottom: 20px; /* Added margin bottom for separation */
   text-align: center;
+  padding-right: 15px;
 }
 
 .contact-section p {

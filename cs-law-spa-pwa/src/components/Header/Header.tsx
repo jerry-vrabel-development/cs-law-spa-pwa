@@ -21,7 +21,7 @@ const Header: React.FC = () => {
       <nav className={`navbar ${isMenuOpen ? 'active' : ''}`} id="navbar">
         
         <a href="#hero"><FaHouse className='icon' />Home</a>
-        <a href="#services"><FaScaleBalanced className='icon' />Law Services</a>
+        <a href="#law-services"><FaScaleBalanced className='icon' />Law Services</a>
         <a href="#about"><IoInformationCircle className='icon' />About Us</a>
         <a href="#contactUs"><FaPhone className='icon' />Contact</a>
       </nav>

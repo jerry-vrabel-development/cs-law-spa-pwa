@@ -1,11 +1,12 @@
 import './Calendly.css'
+import { GrSchedule } from "react-icons/gr";
 import { InlineWidget } from 'react-calendly';
 
 const Calendly: React.FC = () => {
 
   return (
     <div id="calendly" className="calendly-section">
-      <h2>Schedule a Consultation</h2>
+      <h2><GrSchedule className="calendly-section-icon" />Schedule a Consultation</h2>
       <div className="inline-widget">
         <InlineWidget
           pageSettings={{

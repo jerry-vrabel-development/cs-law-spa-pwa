@@ -1,4 +1,5 @@
 import './Contact.css';
+import { FaPhone } from "react-icons/fa6";
 
 interface ContactInfo {
   type: string;
@@ -30,7 +31,7 @@ const contactDetails: ContactInfo[] = [
 const Contact: React.FC = () => {
   return (
     <div id="contactUs" className="contact-section">
-              <h2>Contact</h2>
+              <h2><FaPhone className='contact-icon' />Contact</h2>
       <img src="csa-logo.svg" className="contact-image" alt="The Law Firm of CONRAD SZEWCZYK & ASSOCIATES" />
       <div className="contact-content">
         <address>
