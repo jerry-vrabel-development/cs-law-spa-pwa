@@ -1,29 +1,48 @@
 /* LawServices.css */
 .law-services-wrapper {
-  text-align: center;
-}
-.law-service-icon {
-  height: 32px;
-  width: 32px;
-  margin-right: 1em;
 }
 
-.law-services-wrapper h1 {
+.law-services {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.law-services h1 {
   text-align: center;
   font-size: 2.625rem; /* Adjusted font size for better readability */
   font-weight: bold;
   color: #003366;
   padding-top: 1.75em;
 }
-.law-services-wrapper h2 {
+.law-services h2 {
   text-align: center;
   font-size: 2.5rem; /* Adjusted font size for better readability */ 
   padding-top: 1.75em;
 }
-.law-services {
-  min-height: 100vh;  /* Change this to min-height */
-  width: 100vw;
+.law-services ul {
   background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+}
+.law-services li {
+  font-size: 2em;
+  font-family: Georgia, serif;
+  }
+.law-services li :hover {
+}
+.law-services-links {
+  background-color: #FFD700;
+}
+.law-services-links :hover {
+  background-color: #003366;
+  color: #ffffff;
+}
+
+.law-service-icon {
+  height: 32px;
+  width: 32px;
+  margin-right: 1em;
 }
 
 .family-law {
@@ -221,3 +240,59 @@
   font-size: 16px; /* Description font size */
   margin-bottom: 10px; /* Margin at the bottom of the description */
 }
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  .law-services h1 {
+    font-size: 2rem;
+  }
+  .law-services h2 {
+    font-size: 1.75rem;
+  }
+  .family-law h2,
+  .criminal-defense h2,
+  .business-law h2,
+  .estate-planning h2,
+  .personal-injury h2,
+  .family-law h3,
+  .criminal-defense h3,
+  .business-law h3,
+  .estate-planning h3,
+  .personal-injury h3 {
+    font-size: 2rem;
+  }
+  .service-title {
+    font-size: 20px;
+  }
+  .service-description {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .law-services h1 {
+    font-size: 1.5rem;
+  }
+  .law-services h2 {
+    font-size: 1.5rem;
+  }
+  .family-law h2,
+  .criminal-defense h2,
+  .business-law h2,
+  .estate-planning h2,
+  .personal-injury h2,
+  .family-law h3,
+  .criminal-defense h3,
+  .business-law h3,
+  .estate-planning h3,
+  .personal-injury h3 {
+    font-size: 1.75rem;
+  }
+  .service-title {
+    font-size: 18px;
+  }
+  .service-description {
+    font-size: 12px;
+  }
+}
+

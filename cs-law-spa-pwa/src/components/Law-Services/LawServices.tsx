@@ -10,11 +10,11 @@ const LawServices: React.FC = () => {
       <div id="law-services" className="law-services">
         <h1><FaScaleBalanced className='law-service-icon' /> Law Services</h1>
         <ul>
-          <li><a href='#family-law' className=''><GiFamilyHouse className="law-service-icon" />Family Law</a></li>
-          <li><a href='#criminal-defense' className=''><FaShield className="law-service-icon" />Criminal Defense</a></li>
-          <li><a href='#business-law' className=''><MdAccountBalance className="law-service-icon" />Business Law</a></li>
-          <li><a href='#estate-planning' className=''><MdOutlineRealEstateAgent className="law-service-icon" />Estate Planning</a></li>
-          <li><a href='#personal-injury' className=''><FaUserInjured className="law-service-icon" />Personal Injury</a></li>
+          <li><a href='#family-law' className='law-services-links'><GiFamilyHouse className="law-service-icon" />Family Law</a></li>
+          <li><a href='#criminal-defense' className='law-services-links'><FaShield className="law-service-icon" />Criminal Defense</a></li>
+          <li><a href='#business-law' className='law-services-links'><MdAccountBalance className="law-service-icon" />Business Law</a></li>
+          <li><a href='#estate-planning' className='law-services-links'><MdOutlineRealEstateAgent className="law-service-icon" />Estate Planning</a></li>
+          <li><a href='#personal-injury' className='law-services-links'><FaUserInjured className="law-service-icon" />Personal Injury</a></li>
         </ul>
       </div>
       <div id="family-law" className="family-law">
