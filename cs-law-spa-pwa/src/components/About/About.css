@@ -1,14 +1,11 @@
 .about {
-  min-height: 100vh;  /* Change this to min-height */
+  min-height: 100vh;
   width: 100vw;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center; /* Center content horizontally */
-  padding: 40px; /* Added padding for better spacing */
-  box-sizing: border-box; /* Ensure padding doesn't affect overall width */
-  background-color: #f8f9fa; /* Light grey background for subtle contrast */
-  color: #333; /* Dark grey text for readability */
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .about h2 {
@@ -16,16 +13,15 @@
   font-size: 2.625rem; /* Adjusted for better readability */
   margin-bottom: 20px; /* Added margin bottom for separation */
   text-align: center;
-  padding-right: 15px;
 }
 
 .about-icon {
   height: 32px;
-  padding-right: 15px;
 }
 
 .about-content {
   max-width: 800px; /* Limit maximum width of content */
+  margin-top: 60px;
 }
 
 .about p {

@@ -1,9 +1,8 @@
-.contact-section {
+.contact {
   min-height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-color: #003366;
 }
@@ -14,20 +13,27 @@
 .contact-image {
   width: 250px;
   height: 200px;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .contact-content {
   max-width: 800px; /* Limit maximum width of content */
-  padding: 15px;
+  margin-top: 60px;
+}
+.contact-card {
+  display: grid;
+  justify-content: center;
+  background: #ffffff;
+  padding: 0.5em 1em; /* Add padding for better click area */
+  border-radius: 5px;
 }
 
-.contact-section h2 {
+.contact h2 {
   color: #ffffff;
   font-size: 2.625rem; /* Adjusted font size for better readability */
   text-align: center;
-  padding-right: 15px;
 }
 
 .contact-section p {

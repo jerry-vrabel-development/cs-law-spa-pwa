@@ -1,7 +1,9 @@
 /* LawServices.css */
 
 /* Common styles */
-.law-services-wrapper {}
+.law-services-wrapper {
+  margin-top: 60px;
+}
 
 .law-services {
   min-height: 100vh;
@@ -46,7 +48,8 @@
 
 .law-services-links:hover {
   background-color: #003366;
-  color: #ffffff; /* Change text color on hover */
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .law-service-icon {
@@ -105,6 +108,7 @@
 
 .family-law-content {
   max-width: 800px;
+  margin-top: 60px;
 }
 
 .family-law p,
@@ -129,6 +133,7 @@
 
 .criminal-defense-content {
   max-width: 800px;
+  margin-top: 60px;
 }
 
 .criminal-defense p,
@@ -156,6 +161,7 @@
 
 .business-law-content {
   max-width: 800px;
+  margin-top: 60px;
 }
 
 .business-law p,
@@ -187,6 +193,7 @@
 
 .estate-planning-content {
   max-width: 800px;
+  margin-top: 60px;
 }
 
 .estate-planning p,
@@ -214,6 +221,7 @@
 
 .personal-injury-content {
   max-width: 800px;
+  margin-top: 60px;
 }
 
 .personal-injury p,
@@ -221,38 +229,4 @@
 .personal-injury h3,
 .personal-injury li {
   color: #e7e7e7;
-}
-
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  padding: 20px;
-}
-
-.service-card {
-  background-color: #fff;
-  border-radius: 8px;
-  border: solid 3px #FFD700;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease-in-out;
-  padding: 0.75em;
-}
-
-.service-card:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-.service-title {
-  color: #003366;
-  font-size: 24px;
-  font-weight: bold;
-  margin: 10px 0;
-  text-align: center;
-}
-
-.service-description {
-  color: #555;
-  font-size: 16px;
-  margin-bottom: 10px;
 }

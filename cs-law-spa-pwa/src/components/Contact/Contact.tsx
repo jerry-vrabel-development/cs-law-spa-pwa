@@ -30,10 +30,11 @@ const contactDetails: ContactInfo[] = [
 
 const Contact: React.FC = () => {
   return (
-    <div id="contactUs" className="contact-section">
-              <h2><FaPhone className='contact-icon' />Contact</h2>
-      <img src="csa-logo.svg" className="contact-image" alt="The Law Firm of CONRAD SZEWCZYK & ASSOCIATES" />
+    <div id="contactUs" className="contact">
       <div className="contact-content">
+        <h2><FaPhone className='contact-icon' />Contact</h2>
+        <div className="contact-card">
+        <img src="csa-logo.svg" className="contact-image" alt="The Law Firm of CONRAD SZEWCZYK & ASSOCIATES" />
         <address>
           {contactDetails.map(({ type, value, href }) => (
             <p key={type}>
@@ -41,6 +42,7 @@ const Contact: React.FC = () => {
             </p>
           ))}
         </address>
+        </div>
       </div>
     </div>
   );
