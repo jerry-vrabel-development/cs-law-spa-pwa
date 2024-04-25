@@ -5,14 +5,16 @@ import '../../assets/cs.logo.svg';
 const Hero: React.FC = () => {
 
   return (
-    <div id="hero" className="hero">
+    <section id="hero" className="hero">
       <div className='hero-svg'>
       <img src="csa-logo.svg" className="hero-image" alt="The Law Firm of CONRAD SZEWCZYK & ASSOCIATES" />
       </div>
       <a href="#calendly">
-        <button className="button">Schedule a Consultation</button>
+        <button className="button">Schedule a Consultation
+          <span className="sr-only"> with The Law Firm of CONRAD SZEWCZYK & ASSOCIATES</span>
+        </button>
         </a>
-  </div>
+  </section>
   );
 };
 

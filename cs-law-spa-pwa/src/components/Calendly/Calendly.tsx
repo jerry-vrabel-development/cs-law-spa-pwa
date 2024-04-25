@@ -5,8 +5,8 @@ import { InlineWidget } from 'react-calendly';
 const Calendly: React.FC = () => {
 
   return (
-    <div id="calendly" className="calendly-section">
-      <h2><GrSchedule className="calendly-section-icon" />Schedule a Consultation</h2>
+    <section id="calendly" className="calendly-section">
+      <h2><GrSchedule aria-label="Schedule a Consultation" className="calendly-section-icon" />Schedule a Consultation</h2>
       <div className="inline-widget">
         <InlineWidget
           pageSettings={{
@@ -18,7 +18,7 @@ const Calendly: React.FC = () => {
           }}
           url="https://calendly.com/jerry-vrabel-development" />
       </div>
-    </div>
+    </section>
   )
 };
 

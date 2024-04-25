@@ -10,7 +10,7 @@ import './App.css'
 function App() {
 
   return (
-    <>
+    <div role="main">
       <Header />
       <Hero />
       <section>
@@ -20,7 +20,7 @@ function App() {
         <Contact />
       </section>
         <Footer />
-    </>
+    </div>
   )
 }
 

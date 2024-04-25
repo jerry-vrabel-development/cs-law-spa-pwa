@@ -20,13 +20,13 @@ const Header: React.FC = () => {
       {/* Toggle class based on the state */}
       <nav className={`navbar ${isMenuOpen ? 'active' : ''}`} id="navbar">
         
-        <a href="#hero"><FaHouse className='icon' />Home</a>
-        <a href="#law-services"><FaScaleBalanced className='icon' />Law Services</a>
-        <a href="#about"><IoInformationCircle className='icon' />About Us</a>
-        <a href="#contactUs"><FaPhone className='icon' />Contact</a>
+        <a href="#hero"><FaHouse className='icon' aria-label="Home" />Home</a>
+        <a href="#law-services"><FaScaleBalanced className='icon' aria-label="Law Services" />Law Services</a>
+        <a href="#about"><IoInformationCircle className='icon' aria-label="About Us" />About Us</a>
+        <a href="#contactUs"><FaPhone className='icon' aria-label="Contact" />Contact</a>
       </nav>
       {/* Button to toggle the menu */}
-      <button className="menu-button" id="menuButton" onClick={toggleMenu}>
+      <button className="menu-button" id="menuButton" onClick={toggleMenu} aria-label="Toggle Menu">
         <span className="hamburger-icon"></span>
         <span className="hamburger-icon"></span>
         <span className="hamburger-icon"></span>

@@ -6,8 +6,8 @@ import { FaUserInjured } from "react-icons/fa";
 
 const LawServices: React.FC = () => {
   return (
-    <div id="law-services-wrapper" className="law-services-wrapper">
-      <div id="law-services" className="law-services">
+    <nav id="law-services-wrapper" className="law-services-wrapper">
+      <section id="law-services" className="law-services">
         <h1><FaScaleBalanced className='law-service-icon' /> Law Services</h1>
         <ul>
           <li><a href='#family-law' className='law-services-links'><GiFamilyHouse className="law-service-icon" />Family Law</a></li>
@@ -16,8 +16,16 @@ const LawServices: React.FC = () => {
           <li><a href='#estate-planning' className='law-services-links'><MdOutlineRealEstateAgent className="law-service-icon" />Estate Planning</a></li>
           <li><a href='#personal-injury' className='law-services-links'><FaUserInjured className="law-service-icon" />Personal Injury</a></li>
         </ul>
-      </div>
-      <div id="family-law" className="family-law">
+      </section>
+
+      {/* Add Skip Links for Keyboard Navigation */}
+      <a href="#family-law" className="sr-only sr-skip-link">Skip to Family Law Section</a>
+      <a href="#criminal-defense" className="sr-only sr-skip-link">Skip to Criminal Defense Section</a>
+      <a href="#business-law" className="sr-only sr-skip-link">Skip to Business Law Section</a>
+      <a href="#estate-planning" className="sr-only sr-skip-link">Skip to Estate Planning Section</a>
+      <a href="#personal-injury" className="sr-only sr-skip-link">Skip to Personal Injury Section</a>
+      
+      <section id="family-law" className="family-law">
         <div className='family-law-content'>
           <h2><GiFamilyHouse className="law-service-icon" />Family Law</h2>
           <p>Navigating the complexities of family law requires compassionate support and expert guidance. At Conrad Szewczyk & Associates, we understand the emotional and legal challenges that families face during these times. Our dedicated team is committed to providing comprehensive family law services tailored to your unique needs.</p>
@@ -36,9 +44,9 @@ const LawServices: React.FC = () => {
           <h3>Contact Us</h3>
           <p>If you're in need of family law assistance, don't hesitate to reach out to us. Schedule a consultation today to discuss your case and learn how we can help you navigate the legal process with confidence.</p>
         </div>
-      </div>
+      </section>
 
-      <div id="criminal-defense" className="criminal-defense">
+      <section id="criminal-defense" className="criminal-defense">
         <div className='criminal-defense-content'>
         <h2><FaShield className="law-service-icon" />Criminal Defense</h2>
         <p>When facing criminal charges, your freedom and future are on the line. At Conrad Szewczyk & Associates, we understand the gravity of the situation and are committed to providing aggressive and effective legal representation to protect your rights.</p>
@@ -61,9 +69,9 @@ const LawServices: React.FC = () => {
         <h3>Contact Us</h3>
         <p>If you're facing criminal charges, don't wait to seek legal representation. Contact us today to schedule a confidential consultation with one of our experienced criminal defense attorneys.</p>
       </div>
-      </div>
+      </section>
 
-      <div id="business-law" className="business-law">
+      <section id="business-law" className="business-law">
       <div className='business-law-content'>
         <h2><MdAccountBalance className="law-service-icon" />Business Law</h2>
         <p>Operating a business in today's complex legal landscape requires proactive legal guidance and strategic planning. At Conrad Szewczyk & Associates, we offer comprehensive business law services to help entrepreneurs, startups, and established companies navigate legal challenges and achieve their goals.</p>
@@ -86,9 +94,9 @@ const LawServices: React.FC = () => {
         <h3>Contact Us</h3>
         <p>Whether you're starting a new business, expanding an existing one, or facing a legal issue, we're here to help. Contact us today to schedule a consultation with one of our experienced business law attorneys.</p>
           </div>
-      </div>
+      </section>
 
-      <div id="estate-planning" className="estate-planning">
+      <section id="estate-planning" className="estate-planning">
         <div className='estate-planning-content'>
         <h2><MdOutlineRealEstateAgent className="law-service-icon" />Estate Planning</h2>
         <p>Planning for the future is one of the most important things you can do to protect your loved ones and your assets. At Conrad Szewczyk & Associates, we offer comprehensive estate planning services to help you create a plan that reflects your wishes and provides peace of mind for you and your family.</p>
@@ -111,9 +119,9 @@ const LawServices: React.FC = () => {
         <h3>Contact Us</h3>
         <p>Don't wait until it's too late to start planning for the future. Contact us today to schedule a consultation with one of our experienced estate planning attorneys and take the first step toward protecting your legacy.</p>
           </div>
-      </div>
+      </section>
 
-      <div id="personal-injury" className="personal-injury">
+      <section id="personal-injury" className="personal-injury">
         <div className='personal-injury-content'>
         <h2><FaUserInjured className="law-service-icon" />Personal Injury</h2>
         <p>Being injured due to someone else's negligence can have devastating consequences for you and your family. At Conrad Szewczyk & Associates, we're dedicated to helping personal injury victims seek justice and recover the compensation they deserve for their injuries and losses.</p>
@@ -136,8 +144,8 @@ const LawServices: React.FC = () => {
         <h3>Contact Us</h3>
         <p>If you've been injured in an accident, don't wait to seek legal representation. Contact us today to schedule a free consultation with one of our experienced personal injury attorneys and learn how we can help you get the compensation you deserve.</p>
           </div>
-      </div>
-    </div>
+      </section>
+    </nav>
   );
 };
 
