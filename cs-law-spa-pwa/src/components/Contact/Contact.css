@@ -11,16 +11,13 @@
   padding-right: 15px; 
 }
 .contact-image {
-  width: 250px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .contact-content {
   max-width: 800px; /* Limit maximum width of content */
   margin-top: 60px;
+  text-align: center;
 }
 .contact-card {
   display: grid;

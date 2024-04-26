@@ -13,8 +13,8 @@ const Hero: React.FC = () => {
         <button className="button">Schedule a Consultation
           <span className="sr-only"> with The Law Firm of CONRAD SZEWCZYK & ASSOCIATES</span>
         </button>
-        </a>
-  </section>
+      </a>
+    </section>
   );
 };
 

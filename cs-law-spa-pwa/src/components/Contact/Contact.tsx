@@ -9,10 +9,6 @@ interface ContactInfo {
 
 const contactDetails: ContactInfo[] = [
   {
-    type: 'Address',
-    value: '205 West Randolph Street - Suite 2150 Chicago, Illinois 60606',
-  },
-  {
     type: 'Tel',
     value: '(312) 855-1411',
     href: 'tel:+13128551411',
