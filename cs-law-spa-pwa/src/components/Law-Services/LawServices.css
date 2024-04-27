@@ -2,13 +2,15 @@
 
 /* Common styles */
 .law-services-wrapper {
-  margin-top: 60px;
+  margin-top: 120px;
 }
 
 .law-services {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  padding: 40px;
 }
 
 .law-services h1 {
@@ -24,7 +26,6 @@
   font-size: 2.5rem;
   padding-top: 1.75em;
 }
-
 .law-services ul {
   background-color: #ffffff;
   margin-left: auto;
@@ -61,7 +62,7 @@
 /* Media Queries */
 @media only screen and (max-width: 768px) {
   .law-services h1 {
-    font-size: 2rem;
+    font-size: 2.65rem;
   }
   .law-services h2 {
     font-size: 1.75rem;
@@ -78,7 +79,7 @@
 
 @media only screen and (max-width: 576px) {
   .law-services h1 {
-    font-size: 1.5rem;
+    font-size: 2.65rem;
   }
   .law-services h2 {
     font-size: 1.5rem;
@@ -116,6 +117,13 @@
 .family-law h3 {
   color: #ffffff;
 }
+.family-law h3 {
+  margin-top: 2em;
+  color: #FFD700;
+}
+.family-law a {
+  color: #FFD700;
+}
 
 /* Criminal Defense */
 .criminal-defense {
@@ -140,6 +148,9 @@
 .criminal-defense h2,
 .criminal-defense h3 {
   color: #003366;
+}
+.criminal-defense h3 {
+  margin-top: 2em;
 }
 
 .criminal-defense .icon {
@@ -169,13 +180,17 @@
 .business-law h3 {
   color: #ffffff;
 }
+.business-law h3 {
+  margin-top: 2em;
+  color: #FFD700;
+}
 
 .business-law .icon {
   height: 32px;
 }
 
 .business-law li {
-  color: #FFD700;
+  color: #Fefefe;
 }
 
 /* Estate Planning */
@@ -200,6 +215,9 @@
 .estate-planning h2,
 .estate-planning h3 {
   color: #003366;
+}
+.estate-planning h3{
+  margin-top: 2em;
 }
 
 .estate-planning .icon {
@@ -229,4 +247,9 @@
 .personal-injury h3,
 .personal-injury li {
   color: #e7e7e7;
+}
+.personal-injury h3 {
+  margin-top: 2em;
+  font-weight: border;
+  color: #FFD700;
 }
