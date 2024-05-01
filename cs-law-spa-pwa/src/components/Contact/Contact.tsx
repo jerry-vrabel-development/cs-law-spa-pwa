@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
         <img src="csa-logo.svg" className="contact-image" alt="The Law Firm of CONRAD SZEWCZYK & ASSOCIATES" />
         <address>
           {contactDetails.map(({ type, value, href }) => (
-            <p key={type}>
+            <p className="address" key={type}>
               {type}: {href ? <a href={href}>{value}</a> : value}
             </p>
           ))}

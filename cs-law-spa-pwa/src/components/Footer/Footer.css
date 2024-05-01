@@ -3,14 +3,17 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  background-color: #ffffff;
+  background-color: #003366;
   color: white;
   font-size: 10px;
   width: 100vw;
 }
 
 .footer p {
-  color: #003366;
+  color: #ffffff;
+}
+.footer a {
+  color: #ffffff;
 }
 .footer-logo {
 margin-right: auto;
