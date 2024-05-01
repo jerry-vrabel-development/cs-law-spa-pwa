@@ -9,7 +9,6 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
 }
 
 .law-services h1 {
@@ -102,8 +101,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px;
-  box-sizing: border-box;
 }
 
 .family-law-content {
@@ -132,8 +129,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px;
-  box-sizing: border-box;
   color: #003366;
   background-color: #ffffff;
 }
@@ -164,8 +159,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px;
-  box-sizing: border-box;
   background-color: #003366;
 }
 
@@ -200,8 +193,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px;
-  box-sizing: border-box;
   background-color: #ffffff;
 }
 
@@ -231,8 +222,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 40px;
-  box-sizing: border-box;
   background-color: #003366;
 }
 
