@@ -1,5 +1,6 @@
 import './Contact.css';
 import { FaPhone } from "react-icons/fa6";
+import { useTranslation } from 'react-i18next';
 
 interface ContactInfo {
   type: string;
@@ -25,16 +26,18 @@ const contactDetails: ContactInfo[] = [
 ];
 
 const Contact: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="contactUs" className="contact">
       <div className="contact-content">
-        <h2><FaPhone aria-label="Contact" className='contact-icon' />Contact</h2>
+        <h2><FaPhone aria-label={t('contact.contact')} className='contact-icon' />{t('contact.contact')}</h2>
         <div className="contact-card">
-        <img src="csa-logo.svg" className="contact-image" alt="The Law Firm of CONRAD SZEWCZYK & ASSOCIATES" />
+        <img src="csa-logo.svg" className="contact-image" alt={t('contact.altText')} />
         <address>
           {contactDetails.map(({ type, value, href }) => (
             <p className="address" key={type}>
-              {type}: {href ? <a href={href}>{value}</a> : value}
+              {t(`contact.${type}`)}: {href ? <a href={href}>{value}</a> : value}
             </p>
           ))}
         </address>

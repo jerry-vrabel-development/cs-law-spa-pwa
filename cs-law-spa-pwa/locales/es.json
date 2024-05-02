@@ -1,0 +1,82 @@
+{
+  "header": {
+    "logoAlt": "El bufete de abogados de CONRAD SZEWCZYK & ASOCIADOS",
+    "home": "Inicio",
+    "lawServices": "Servicios Legales",
+    "aboutUs": "Sobre Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "logoAlt": "El bufete de abogados de CONRAD SZEWCZYK & ASOCIADOS",
+    "button": "Programar una consulta",
+    "srText": "con El bufete de abogados de CONRAD SZEWCZYK & ASOCIADOS"
+  },
+  "lawServices": {
+    "title": "Servicios Legales",
+    "familyLaw": "Derecho de Familia",
+    "criminalDefense": "Defensa Criminal",
+    "businessLaw": "Derecho de Negocios",
+    "estatePlanning": "Planificación Patrimonial",
+    "personalInjury": "Lesiones Personales",
+    "familyLawDescription": "Navegar por las complejidades del derecho de familia requiere apoyo compasivo y orientación experta. En Conrad Szewczyk & Associates, entendemos los desafíos emocionales y legales que enfrentan las familias durante estos tiempos. Nuestro equipo dedicado está comprometido a proporcionar servicios completos de derecho de familia adaptados a sus necesidades únicas.",
+    "criminalDefenseDescription": "Cuando enfrenta cargos criminales, su libertad y futuro están en juego. En Conrad Szewczyk & Associates, entendemos la gravedad de la situación y estamos comprometidos a proporcionar representación legal agresiva y efectiva para proteger sus derechos.",
+    "businessLawDescription": "Operar un negocio en el complejo panorama legal actual requiere orientación legal proactiva y planificación estratégica. En Conrad Szewczyk & Associates, ofrecemos servicios completos de derecho de negocios para ayudar a emprendedores, startups y empresas establecidas a navegar los desafíos legales y alcanzar sus objetivos.",
+    "estatePlanningDescription": "Planificar el futuro es una de las cosas más importantes que puede hacer para proteger a sus seres queridos y sus activos. En Conrad Szewczyk & Associates, ofrecemos servicios completos de planificación patrimonial para ayudarlo a crear un plan que refleje sus deseos y brinde tranquilidad a usted y a su familia.",
+    "personalInjuryDescription": "Ser lesionado debido a la negligencia de otra persona puede tener consecuencias devastadoras para usted y su familia. En Conrad Szewczyk & Associates, estamos dedicados a ayudar a las víctimas de lesiones personales a buscar justicia y recuperar la compensación que merecen por sus lesiones y pérdidas."
+  },
+  "familyLaw": {
+    "title": "Derecho de Familia",
+    "intro": "Navegar por las complejidades del derecho de familia requiere apoyo compasivo y orientación experta. En Conrad Szewczyk & Associates, entendemos los desafíos emocionales y legales que enfrentan las familias durante estos tiempos. Nuestro equipo dedicado está comprometido a brindar servicios integrales de derecho de familia adaptados a sus necesidades únicas.",
+    "approach": {
+      "title": "Nuestro Enfoque",
+      "description": "Con sensibilidad y profesionalismo, abordamos cada caso con el mayor cuidado y atención al detalle. Ya sea que enfrentes un divorcio, una disputa de custodia de menores, una adopción o cualquier otro asunto legal relacionado con la familia, nos esforzamos por lograr el mejor resultado posible para ti y tus seres queridos."
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "divorce": "Divorcio y Separación: Terminar un matrimonio nunca es fácil. Nuestros abogados experimentados están aquí para guiarte a través del proceso de divorcio, asegurando que tus derechos estén protegidos y ayudándote a seguir adelante con confianza.",
+      "custody": "Custodia de Menores y Apoyo: Priorizamos el bienestar de tus hijos y trabajamos incansablemente para asegurar acuerdos de custodia justos y acuerdos de manutención de menores que sirvan a sus mejores intereses.",
+      "adoption": "Adopción: Dar la bienvenida a un nuevo miembro a tu familia a través de la adopción es una ocasión alegre. Brindamos asistencia legal integral para navegar por las complejidades de la ley de adopción, ayudándote a construir la familia con la que siempre has soñado.",
+      "prenuptial": "Acuerdos Prematrimoniales y Postmatrimoniales: Planificar para el futuro es esencial. Nuestros abogados pueden ayudarte a redactar acuerdos prematrimoniales y postmatrimoniales que protejan tus activos y brinden claridad en caso de divorcio.",
+      "violence": "Violencia Doméstica: Si tú o un ser querido están experimentando violencia doméstica, estamos aquí para ayudarte a tomar medidas legales para garantizar tu seguridad y bienestar."
+    },
+    "whyChooseUs": {
+      "title": "Por Qué Elegirnos",
+      "experience": "Experiencia: Con años de experiencia en derecho de familia, nuestros abogados tienen el conocimiento y la experiencia para manejar incluso los casos más complejos.",
+      "compassion": "Compasión: Entendemos el impacto emocional que pueden tener los asuntos legales familiares. Puedes confiar en nosotros para brindar apoyo compasivo en cada paso del camino.",
+      "personalizedAttention": "Atención Personalizada: Tu caso es único, y lo tratamos como tal. Nos tomamos el tiempo para entender tus necesidades individuales y adaptar nuestro enfoque en consecuencia."
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "description": "Si necesitas ayuda legal en materia de derecho de familia, no dudes en contactarnos. Programa una consulta hoy mismo para discutir tu caso y aprender cómo podemos ayudarte a navegar el proceso legal con confianza."
+    }
+  },
+  "skipLinks": {
+    "familyLaw": "Ir a la Sección de Derecho de Familia"
+  },
+  "calendly": {
+    "scheduleConsultation": "Programar una Consulta"
+  },
+  "about": {
+    "about": "Sobre Nosotros",
+    "welcome": "Bienvenido a Conrad Szewczyk & Associates. En Conrad Szewczyk & Associates, nos enorgullece nuestra dedicación inquebrantable a la justicia y nuestro compromiso con la excelencia en la profesión legal. Fundada en 1995 por Conrad Szewczyk, un experto legal de renombre con más de 30 años de experiencia, nuestra firma ha crecido para abarcar un equipo diverso de abogados especializados en diversos campos legales, incluido el derecho corporativo, la propiedad intelectual, el derecho de familia, la defensa penal y la litigación civil.",
+    "mission": "Nuestra misión es proporcionar soluciones legales integrales que satisfagan las necesidades de nuestros clientes en un panorama legal en constante evolución. Creemos en un enfoque centrado en el cliente, garantizando atención personalizada, transparencia y apoyo inquebrantable durante todo el proceso legal. Nuestro equipo aprovecha lo último en tecnología legal, estrategias innovadoras y una profunda comprensión de la ley para lograr los mejores resultados posibles para nuestros clientes.",
+    "moreThan": "Conrad Szewczyk & Associates es más que una firma de abogados; somos un socio de confianza en la navegación de las complejidades del sistema legal. Ya sea que enfrentes una batalla legal desafiante o busques asesoramiento sobre asuntos legales, nuestro equipo está aquí para guiarte en cada paso del camino.",
+    "discover": "Descubre la diferencia que pueden hacer la dedicación, la experiencia y un enfoque centrado en el cliente en tu viaje legal."
+  },
+  "contact": {
+    "contact": "Contacto",
+    "Tel": "Tel",
+    "Fax": "Fax",
+    "Email": "Correo electrónico",
+    "altText": "El bufete de abogados de CONRAD SZEWCZYK & ASOCIADOS"
+  },
+  "footer": {
+    "home": "Inicio",
+    "tel": "Tel",
+    "fax": "Fax",
+    "email": "Correo electrónico",
+    "copyRight": "2024",
+    "allRightsReserved": "Todos los derechos reservados.",
+    "altText": "El logotipo del bufete de abogados de CONRAD SZEWCZYK & ASOCIADOS"
+  }
+}

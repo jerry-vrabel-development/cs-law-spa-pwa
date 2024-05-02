@@ -133,3 +133,21 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 }
+/* LanguageSelector */
+.header-right {
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+}
+
+.header-right button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 0.5em;
+}
+
+.header-right button:hover {
+  color: gold;
+}
