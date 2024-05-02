@@ -1,20 +1,23 @@
 import './LawServices.css';
+import { useTranslation } from 'react-i18next';
 import { FaScaleBalanced, FaShield } from "react-icons/fa6";
 import { GiFamilyHouse } from "react-icons/gi";
 import { MdAccountBalance, MdOutlineRealEstateAgent } from "react-icons/md";
 import { FaUserInjured } from "react-icons/fa";
 
 const LawServices: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <nav id="law-services-wrapper" className="law-services-wrapper">
       <section id="law-services" className="law-services">
-        <h1><FaScaleBalanced className='law-service-icon' /> Law Services</h1>
+        <h1><FaScaleBalanced className='law-service-icon' /> {t('lawServices.title')}</h1>
         <ul>
-          <li><a href='#family-law' className='law-services-links'><GiFamilyHouse className="law-service-icon" />Family Law</a></li>
-          <li><a href='#criminal-defense' className='law-services-links'><FaShield className="law-service-icon" />Criminal Defense</a></li>
-          <li><a href='#business-law' className='law-services-links'><MdAccountBalance className="law-service-icon" />Business Law</a></li>
-          <li><a href='#estate-planning' className='law-services-links'><MdOutlineRealEstateAgent className="law-service-icon" />Estate Planning</a></li>
-          <li><a href='#personal-injury' className='law-services-links'><FaUserInjured className="law-service-icon" />Personal Injury</a></li>
+          <li><a href='#family-law' className='law-services-links'><GiFamilyHouse className="law-service-icon" />{t('lawServices.familyLaw')}</a></li>
+          <li><a href='#criminal-defense' className='law-services-links'><FaShield className="law-service-icon" />{t('lawServices.criminalDefense')}</a></li>
+          <li><a href='#business-law' className='law-services-links'><MdAccountBalance className="law-service-icon" />{t('lawServices.businessLaw')}</a></li>
+          <li><a href='#estate-planning' className='law-services-links'><MdOutlineRealEstateAgent className="law-service-icon" />{t('lawServices.estatePlanning')}</a></li>
+          <li><a href='#personal-injury' className='law-services-links'><FaUserInjured className="law-service-icon" />{t('lawServices.personalInjury')}</a></li>
         </ul>
       </section>
 
@@ -27,29 +30,29 @@ const LawServices: React.FC = () => {
       
       <section id="family-law" className="family-law">
         <div className='family-law-content'>
-          <h2><GiFamilyHouse className="law-service-icon" />Family Law</h2>
-          <p>Navigating the complexities of family law requires compassionate support and expert guidance. At Conrad Szewczyk & Associates, we understand the emotional and legal challenges that families face during these times. Our dedicated team is committed to providing comprehensive family law services tailored to your unique needs.</p>
+          <h2><GiFamilyHouse className="law-service-icon" />{t('familyLaw.title')}</h2>
+          <p>{t('familyLaw.intro')}</p>
           <div>
-            <h3>Our Approach</h3>
-            <p>With sensitivity and professionalism, we approach each case with the utmost care and attention to detail. Whether you're facing a divorce, child custody dispute, adoption, or any other family-related legal matter, we strive to achieve the best possible outcome for you and your loved ones.</p>
+            <h3>{t('familyLaw.approach.title')}</h3>
+            <p>{t('familyLaw.approach.description') }</p>
           </div>
           <div>
-            <h3>Our Services</h3>
-            <p>Divorce and Separation: Ending a marriage is never easy. Our experienced attorneys are here to guide you through the divorce process, ensuring your rights are protected and helping you move forward with confidence.</p>
-            <p>Child Custody and Support: We prioritize the well-being of your children and work tirelessly to secure fair custody arrangements and child support agreements that serve their best interests.</p>
-            <p>Adoption: Welcoming a new member into your family through adoption is a joyous occasion. We provide comprehensive legal assistance to navigate the complexities of adoption law, helping you build the family you've always dreamed of.</p>
-            <p>Prenuptial and Postnuptial Agreements: Planning for the future is essential. Our attorneys can assist you in drafting prenuptial and postnuptial agreements that protect your assets and provide clarity in the event of a divorce.</p>
-            <p>Domestic Violence: If you or a loved one is experiencing domestic violence, we're here to help you take legal action to ensure your safety and well-being.</p>
+            <h3>{t('familyLaw.services.title')}</h3>
+            <p>{t('familyLaw.services.divorce')}</p>
+            <p>{t('familyLaw.services.custody')}</p>
+            <p>{t('familyLaw.services.adoption')}</p>
+            <p>{t('familyLaw.services.prenuptial')}</p>
+            <p>{t('familyLaw.services.violence')}</p>
           </div>
           <div>
-            <h3>Why Choose Us</h3>
-            <p>Experience: With years of experience in family law, our attorneys have the knowledge and expertise to handle even the most complex cases.</p>
-            <p>Compassion: We understand the emotional toll that family legal matters can take. You can trust us to provide compassionate support every step of the way.</p>
-            <p>Personalized Attention: Your case is unique, and we treat it as such. We take the time to understand your individual needs and tailor our approach accordingly.</p>
+            <h3>{t('familyLaw.whyChooseUs.title')}</h3>
+            <p>{t('familyLaw.whyChooseUs.experience')}</p>
+            <p>{t('familyLaw.whyChooseUs.compassion')}</p>
+            <p>{t('familyLaw.whyChooseUs.personalizedAttention')}</p>
           </div>
           <div>
-            <h3>Contact Us</h3>
-            <p>If you're in need of family law assistance, don't hesitate to reach out to us. <a href="#calendly">Schedule a consultation</a> today to discuss your case and learn how we can help you navigate the legal process with confidence.</p>
+            <h3>{t('familyLaw.contact.title')}</h3>
+            <p>{t('familyLaw.contact.description')}</p>
             </div>
         </div>
       </section>

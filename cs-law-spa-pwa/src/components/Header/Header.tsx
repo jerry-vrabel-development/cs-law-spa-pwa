@@ -3,6 +3,7 @@ import './Header.css';
 import { FaHouse, FaScaleBalanced, FaPhone } from "react-icons/fa6";
 import { IoInformationCircle } from "react-icons/io5";
 import { useTranslation } from 'react-i18next';
+import LanguageSelector from './LanguageSelector';
 
 const Header: React.FC = () => {
   // State to manage whether the mobile menu is shown or not
@@ -33,6 +34,9 @@ const Header: React.FC = () => {
         <span className="hamburger-icon"></span>
         <span className="hamburger-icon"></span>
       </button>
+      <div className="header-right">
+        <LanguageSelector /> {/* LanguageSelector component added here */}
+      </div>
     </header>
   );
 };
