@@ -14,6 +14,15 @@
   z-index: 2000; /* Ensures header stays above other content */
 }
 
+/* LanguageSelector */
+.header-right {
+  display: flex;
+  align-items: center;
+  margin-left: 1em
+  margin-right: 1em;
+  z-index: inherit;
+}
+
 /* Logo */
 .logo {
   font-size: 24px;

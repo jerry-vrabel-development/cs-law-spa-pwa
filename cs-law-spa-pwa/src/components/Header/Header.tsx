@@ -21,8 +21,7 @@ const Header: React.FC = () => {
         <img src="csa-logo.svg" className="logo-image" alt={t('header.logoAlt')} />
       </a>
       {/* Toggle class based on the state */}
-      <nav className={`navbar ${isMenuOpen ? 'active' : ''}`} id="navbar">
-        
+      <nav className={`navbar ${isMenuOpen ? 'active' : ''}`} id="navbar">        
         <a href="#hero"><FaHouse className='icon' aria-label="Home" />{t('header.home')}</a>
         <a href="#law-services"><FaScaleBalanced className='icon' aria-label="Law Services" />{t('header.lawServices')}</a>
         <a href="#about"><IoInformationCircle className='icon' aria-label="About Us" />{t('header.aboutUs')}</a>
