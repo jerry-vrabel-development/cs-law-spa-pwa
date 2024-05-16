@@ -25,7 +25,7 @@ const Header: React.FC = () => {
         <a href="#hero"><FaHouse className='icon' aria-label="Home" />{t('header.home')}</a>
         <a href="#law-services"><FaScaleBalanced className='icon' aria-label="Law Services" />{t('header.lawServices')}</a>
         <a href="#about"><IoInformationCircle className='icon' aria-label="About Us" />{t('header.aboutUs')}</a>
-        <a href="#contactUs"><FaPhone className='icon' aria-label="Contact" />{t('header.contact')}</a>
+        <a href="#contactUs" className='last-nav'><FaPhone className='icon' aria-label="Contact" />{t('header.contact')}</a>
       </nav>
       {/* Button to toggle the menu */}
       <button className="menu-button" id="menuButton" onClick={toggleMenu} aria-label="Toggle Menu">
