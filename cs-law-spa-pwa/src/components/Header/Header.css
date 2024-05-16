@@ -18,7 +18,7 @@
 .header-right {
   display: flex;
   align-items: center;
-  margin-left: 1em
+  margin-left: 1em;
   margin-right: 1em;
   z-index: inherit;
 }
@@ -30,6 +30,7 @@
   color: white;
   text-decoration: none;
   margin-top: .25em;
+  z-index: inherit;
 }
 
 .logo-image {

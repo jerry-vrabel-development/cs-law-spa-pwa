@@ -106,6 +106,9 @@
 .family-law-content {
   max-width: 800px;
   margin-top: 60px;
+  padding-bottom: 4em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 .family-law p,
@@ -136,6 +139,9 @@
 .criminal-defense-content {
   max-width: 800px;
   margin-top: 60px;
+  padding-bottom: 4em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 .criminal-defense h2,
@@ -165,6 +171,9 @@
 .business-law-content {
   max-width: 800px;
   margin-top: 60px;
+  padding-bottom: 4em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 .business-law p,
@@ -199,6 +208,9 @@
 .estate-planning-content {
   max-width: 800px;
   margin-top: 60px;
+  padding-bottom: 4em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 .estate-planning h2,
@@ -228,6 +240,9 @@
 .personal-injury-content {
   max-width: 800px;
   margin-top: 60px;
+  padding-bottom: 4em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 .personal-injury p,

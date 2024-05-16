@@ -3,14 +3,14 @@
 .hero {
   color: #fff;
   text-align: center;
-  min-height: 100vh; /* Change this to min-height */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url('../../assets/patrick-fore-H5Lf0nGyetk-unsplash.jpg'); /* Path to your image */
-  background-size: cover; /* Cover ensures the image covers the entire section */
-  background-position: center; /* Centers the background image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-image: url('../../assets/conrad-szewczyk-associates-min.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-image {

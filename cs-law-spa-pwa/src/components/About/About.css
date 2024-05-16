@@ -21,6 +21,9 @@
 .about-content {
   max-width: 800px; /* Limit maximum width of content */
   margin-top: 60px;
+  padding-bottom: 4em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 .about p {
