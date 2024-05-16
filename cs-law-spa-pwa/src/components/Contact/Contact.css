@@ -25,6 +25,11 @@
   color: #ffffff;
   background: #003366;
   border-radius: 5px;
+  min-width: 800px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 .contact h2 {
